@@ -27,7 +27,7 @@ export default function Hero() {
     <section
       className="
         relative z-0 isolate w-full overflow-hidden
-        py-20 md:py-24
+        py-24 md:py-32
         text-white
         bg-cover bg-center bg-no-repeat
       "
@@ -93,20 +93,22 @@ export default function Hero() {
           </div>
         </div>
         
-        {/* Düzenleyici Kurumlar - Hero Alt Kısmı */}
-        <div className="absolute bottom-6 left-1/2 transform -translate-x-1/2 z-10">
-          <div className="flex items-center gap-8 sm:gap-12">
-            <img 
-              src="/sehitkamil.png" 
-              alt="Şehitkamil Belediyesi" 
-              className="h-16 sm:h-20 w-auto object-contain drop-shadow-lg"
-            />
-            <img 
-              src="/umut-yilmaz.png" 
-              alt="Av. Umut Yılmaz" 
-              className="h-16 sm:h-20 w-auto object-contain drop-shadow-lg"
-            />
-          </div>
+        {/* Düzenleyici Kurumlar - Sol Üst Köşe */}
+        <div className="absolute top-6 left-6 z-10">
+          <img 
+            src="/sehitkamil.png" 
+            alt="Şehitkamil Belediyesi" 
+            className="h-16 sm:h-20 w-auto object-contain drop-shadow-lg"
+          />
+        </div>
+        
+        {/* Düzenleyici Kurumlar - Sağ Üst Köşe */}
+        <div className="absolute top-6 right-6 z-10">
+          <img 
+            src="/umut-yilmaz.png" 
+            alt="Av. Umut Yılmaz" 
+            className="h-16 sm:h-20 w-auto object-contain drop-shadow-lg"
+          />
         </div>
       </div>
     </section>
