@@ -5,9 +5,9 @@ import Button from "@/components/ui/button";
 import Link from "next/link";
 
 const JURY = [
-  { name: "Jüri Üyesi 1", title: "Oyun Geliştirici",      avatar: "/file.svg" },
-  { name: "Jüri Üyesi 2", title: "Yayıncı / Influencer",  avatar: "/globe.svg" },
-  { name: "Mentor 1",     title: "Teknik Mentor",         avatar: "/window.svg" },
+  { name: "Jüri", title: "",                    avatar: "/file.svg" },
+  { name: "Jüri", title: "",                    avatar: "/globe.svg" },
+  { name: "Mentor 1",     title: "Teknik Mentor", avatar: "/window.svg" },
 ];
 
 export default function JuryPreview() {
@@ -76,12 +76,14 @@ export default function JuryPreview() {
               >
                 {p.name}
               </div>
-              <div
-                className="text-sm"
-                style={{ color: '#d1d5db' }}
-              >
-                {p.title}
-              </div>
+              {p.title ? (
+                <div
+                  className="text-sm"
+                  style={{ color: '#d1d5db' }}
+                >
+                  {p.title}
+                </div>
+              ) : null}
             </div>
           </div>
         ))}

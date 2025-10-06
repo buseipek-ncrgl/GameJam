@@ -236,11 +236,10 @@ export default function RulesPage() {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-10">
             {[
-              { percentage: "25%", title: "Yaratıcılık", desc: "Orijinal fikirler, yenilikçi yaklaşımlar ve yaratıcı çözümler", color: "emerald", gradient: "from-emerald-500/20 to-teal-600/20", border: "border-emerald-500/30" },
-              { percentage: "25%", title: "Teknik Kalite", desc: "Kod kalitesi, performans, hata yokluğu ve teknik mükemmellik", color: "blue", gradient: "from-blue-500/20 to-indigo-600/20", border: "border-blue-500/30" },
+              { percentage: "20%", title: "Yaratıcılık ve Görsel", desc: "Orijinal fikirler, sanat yönetimi ve görsel çekicilik", color: "emerald", gradient: "from-emerald-500/20 to-teal-600/20", border: "border-emerald-500/30" },
+              { percentage: "20%", title: "Teknik Kalite", desc: "Kod kalitesi, performans, hata yokluğu ve teknik mükemmellik", color: "blue", gradient: "from-blue-500/20 to-indigo-600/20", border: "border-blue-500/30" },
               { percentage: "20%", title: "Oynanabilirlik", desc: "Oyun mekanikleri, kullanıcı deneyimi ve eğlence faktörü", color: "purple", gradient: "from-purple-500/20 to-violet-600/20", border: "border-purple-500/30" },
-              { percentage: "15%", title: "Tema Uyumu", desc: "Verilen temaya uygunluk ve konsept tutarlılığı", color: "orange", gradient: "from-orange-500/20 to-amber-600/20", border: "border-orange-500/30" },
-              { percentage: "10%", title: "Görsel Tasarım", desc: "Grafik kalitesi, sanat yönetimi ve görsel çekicilik", color: "pink", gradient: "from-pink-500/20 to-rose-600/20", border: "border-pink-500/30" },
+              { percentage: "20%", title: "Tema Uyumu", desc: "Verilen temaya uygunluk ve konsept tutarlılığı", color: "orange", gradient: "from-orange-500/20 to-amber-600/20", border: "border-orange-500/30" },
               { percentage: "20%", title: "Sosyal Medya", desc: "#Şehitkamil etiketiyle yapılan paylaşımlar", color: "cyan", gradient: "from-cyan-500/20 to-sky-600/20", border: "border-cyan-500/30" }
             ].map((criterion, index) => (
               <div
