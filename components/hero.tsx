@@ -55,8 +55,8 @@ export default function Hero() {
               Oyna ve Kazan!
             </h1>
             <p className="mt-4 max-w-xl opacity-95 text-white/90">
-              Oyununu geliştir, puan topla, ödülleri kap. Başarılı projeler belediye
-              mobil uygulamasına entegre edilecek.
+              Oyununu geliştir, puan topla, ödülleri kap. Sen de katıl ve 
+              yaratıcılığını göster!
             </p>
 
             {/* CTA'lar — Neon Tema Uyumlu */}
